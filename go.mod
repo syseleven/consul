@@ -8,7 +8,11 @@ replace github.com/hashicorp/consul/sdk => ./sdk
 
 replace github.com/hashicorp/consul/proto-public => ./proto-public
 
+// replace github.com/hashicorp/consul/agent => ./agent
+
 replace launchpad.net/gocheck => github.com/go-check/check v0.0.0-20140225173054-eb6ee6f84d0a
+
+replace	github.com/hashicorp/go-discover v0.0.0-20220714221025-1c234a67149a => github.com/syseleven/go-discover v0.0.0-20250220144239-be9f1e3ca669
 
 require (
 	github.com/NYTimes/gziphandler v1.0.1
@@ -38,7 +42,8 @@ require (
 	github.com/hashicorp/go-checkpoint v0.5.0
 	github.com/hashicorp/go-cleanhttp v0.5.1
 	github.com/hashicorp/go-connlimit v0.3.0
-	github.com/hashicorp/go-discover v0.0.0-20220714221025-1c234a67149a
+	//github.com/hashicorp/go-discover v0.0.0-20220714221025-1c234a67149a
+	github.com/syseleven/go-discover v0.0.0-20250220144239-be9f1e3ca669
 	github.com/hashicorp/go-hclog v1.2.1
 	github.com/hashicorp/go-memdb v1.3.4
 	github.com/hashicorp/go-multierror v1.1.1
