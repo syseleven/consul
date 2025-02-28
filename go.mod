@@ -10,7 +10,7 @@ replace (
 	github.com/hashicorp/consul/proto-public => ./proto-public
 	github.com/hashicorp/consul/sdk => ./sdk
 	github.com/hashicorp/consul/troubleshoot => ./troubleshoot
-	github.com/hashicorp/go-discover v0.0.0-20220714221025-1c234a67149a => github.com/syseleven/go-discover v0.0.0-20250225161616-6d3d00a00cca
+	github.com/hashicorp/go-discover v0.0.0-20230724184603-e89ebd1b2f65 => github.com/syseleven/go-discover v0.0.0-20250225161616-6d3d00a00cca
 )
 
 exclude (
@@ -106,7 +106,7 @@ require (
 	github.com/shirou/gopsutil/v3 v3.22.9
 	github.com/stretchr/testify v1.8.4
 	//github.com/hashicorp/go-discover v0.0.0-20230724184603-e89ebd1b2f65
-	github.com/syseleven/go-discover v0.0.0-20250225161616-6d3d00a00cca
+	github.com/syseleven/go-discover v0.0.0-20250228095045-b1a6c05dbfe3
 	github.com/xeipuuv/gojsonschema v1.2.0
 	github.com/zclconf/go-cty v1.11.1
 	go.etcd.io/bbolt v1.3.7
